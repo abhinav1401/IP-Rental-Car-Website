@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+    <item Category="Sedan">
+        <id>1000</id>
+        <Availability>Yes</Availability>
+        <Brand>Toyota</Brand>
+        <Model>Camry</Model>
+        <Year>2013</Year>
+        <Mileage>33960</Mileage>
+        <FuelType>Petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>120</PricePerDay>
+        <Description>Toyota Camry can go from 0-60 in 3.99 seconds and has a top speed of 265 mph.It has a luxurious interior.</Description>
+    </item>
+    <item Category="Sedan">
+        <id>1001</id>
+        <Availability>No</Availability>
+        <Brand>BMW</Brand>
+        <Model>320i</Model>
+        <Year>2016</Year>
+        <Mileage>18966</Mileage>
+        <FuelType>Petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>125</PricePerDay>
+        <Description>This silver sedan runs very quietly. It has a trailer hitch, a luxurious interior and no cupholders. It is brand new.</Description>
+    </item>
+    <item Category="SUV">
+        <id>1002</id>
+        <Availability>Yes</Availability>
+        <Brand>Holden</Brand>
+        <Model>Captiva</Model>
+        <Year>2017</Year>
+        <Mileage>77647</Mileage>
+        <FuelType>Petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>130</PricePerDay>
+        <Description>It is relatively inexpensive. It has a torn-up interior, a radar detector, a backup camera and a diesel engine.</Description>
+    </item>
+    <item Category="SUV">
+        <id>1003</id>
+        <Availability>Yes</Availability>
+        <Brand>Jeep</Brand>
+        <Model>Cherokee</Model>
+        <Year>2016</Year>
+        <Mileage>68177</Mileage>
+        <FuelType>Petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>135</PricePerDay>
+        <Description>It can go from 0-60 in 17.39 seconds and has a top speed of 113 mph. It has a off-road suspension and a hybrid engine.</Description>
+    </item>
+    <item Category="Sedan">
+        <id>1004</id>
+        <Availability>No</Availability>
+        <Brand>Honda</Brand>
+        <Model>Civic</Model>
+        <Year>2015</Year>
+        <Mileage>52892</Mileage>
+        <FuelType>Petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>140</PricePerDay>
+        <Description>It has a stick shift, large blind spots, some panels painted different colors and a sunroof.</Description>
+    </item>
+     <item Category="SUV">
+        <id>1005</id>
+        <Availability>Yes</Availability>
+        <Brand>Benz</Brand>
+        <Model>GLC</Model>
+        <Year>2017</Year>
+        <Mileage>69614</Mileage>
+        <FuelType>Petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>145</PricePerDay>
+        <Description>It has an after-market stereo, racing tires, large blind spots and a hybrid engine.</Description>
+    </item>
+    <item Category="Wagon">
+        <id>1006</id>
+        <Availability>Yes</Availability>
+        <Brand>Volkswagen</Brand>
+        <Model>Golf</Model>
+        <Year>2016</Year>
+        <Mileage>78612</Mileage>
+        <FuelType>Petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>150</PricePerDay>
+        <Description>It can go from 0-60 in 13.85 seconds and has a top speed of 182 mph. It handles extremely well.</Description>
+    </item>
+    <item Category="SUV">
+        <id>1007</id>
+        <Availability>Yes</Availability>
+        <Brand>Suzuki</Brand>
+        <Model>Jimny</Model>
+        <Year>2018</Year>
+        <Mileage>61536</Mileage>
+        <FuelType>Petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>155</PricePerDay>
+        <Description>This dark grey pickup is on the verge of an expensive breakdown. The styling features large angles.</Description>
+    </item>
+    <item Category="SUV">
+        <id>1008</id>
+        <Availability>Yes</Availability>
+        <Brand>Hyundai</Brand>
+        <Model>Sonata</Model>
+        <Year>2013</Year>
+        <Mileage>24166</Mileage>
+        <FuelType>Petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>160</PricePerDay>
+        <Description>The styling features blocky design. It handles incredibly well. It has a luggage rack, a filthy interior, automatic everything and a sunroof.</Description>
+    </item>
+    <item Category="SUV">
+        <id>1009</id>
+        <Availability>No</Availability>
+        <Brand>Nissan</Brand>
+        <Model>X-trail</Model>
+        <Year>2012</Year>
+        <Mileage>34289</Mileage>
+        <FuelType>Petrol</FuelType>
+        <Seats>5</Seats>
+        <PricePerDay>165</PricePerDay>
+        <Description>It has a custom paint job and a diesel engine. It is relatively cheap. It can go from 0-60 in 19.8 seconds and has a top speed of 220 mph.</Description>
+    </item>
+</cars>

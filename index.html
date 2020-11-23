@@ -1,0 +1,34 @@
+<!-- https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8">-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="main_style.css">
+    <title>Hertz-UTS (Abhinav Chaudhary - 13313162)</title>
+
+    <script language="javascript" type="text/javascript">
+        function resizeIframe(iframe) {
+            iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
+</head>
+<body style="background-color:#fff">
+<nav class="navbar fixed-top navbar-light bg-light">
+    <a href="index.html" class="navbar-brand mb-0 h1"><b>Car Rental</b> </h1><span style="color:#053154">by Abhinav Chaudhary - 13313162</span></a>
+    <a href="car_reservation.php" target="mainFrame" class="btn btn-outline-success my-2 my-sm-0">Reservation Cart</a>
+</nav>
+
+<iframe name="mainFrame" id="mainFrame" frameborder="0" scrolling="no" onload='javascript:resizeIframe(this);'
+        style="border-style: none; width: 100%; margin-top: 85px;"
+        src="car_rental_center.html"></iframe>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main_style.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Vue.js library-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body onload="getCars();">
+<div class="container">
+
+    <div id="searchDIV" class="row mt-3">
+        <div class="col-md-3 mb-3" v-for="car in cars">
+            <div class="card">
+                <img v-bind:src="'images/'+car.Model+'.jpg'" class="card-img-top img-fluid" style="height: 200px;">
+                <div class="card-body" style="padding-top: 0px; padding-bottom: 0px;">
+                    <h5 class="card-title">{{car.Brand}}-{{car.Model}}-{{car.Year}}</h5>
+                    <ul class="list-unstyled">
+                        <li class="card-text"><b>Mileage: </b>{{car.Mileage}}</li>
+                        <li class="card-text"><b>Fuel Type: </b>{{car.FuelType}}</li>
+                        <li class="card-text"><b>Seats: </b>{{car.Seats}}</li>
+                        <li class="card-text"><b>Price Per Day: </b>${{car.PricePerDay}}</li>
+                        <li class="card-text"><b>Availability: </b>{{car.Availability}}</li>
+                        <li class="card-text"><b>Description: </b>{{car.Description}}</li>
+                    </ul>
+                </div>
+                <a href="#" v-on:click="addToCart(car.id);" class="btn btn-primary">Add to Cart</a></div>
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript" src="car_rental_center.js"></script>
+</body>
