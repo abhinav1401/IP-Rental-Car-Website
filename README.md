@@ -4,7 +4,6 @@ This repository contains my university assignment for the subject Internet Progr
 
 <h3> Tools used - Photoshop, HTML, CSS, PHP, Javascript and AJAX <h3>
   
-  <br>
   <img align="left" alt="Photoshop" width="29px" src="https://cdn1.iconfinder.com/data/icons/designer-skills/128/photoshop-512.png"/>
   <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
@@ -13,7 +12,7 @@ This repository contains my university assignment for the subject Internet Progr
 
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 
-  </br>
+<br>  </br>
   
   <b> Demo </b>
   
